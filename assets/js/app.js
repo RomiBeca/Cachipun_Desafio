@@ -4,7 +4,6 @@ function jugarCachipun() {
     let preguntaAlJugador = prompt("⚔ ¿Cuantas veces deseas jugar? ⚔")
     let vidas = parseInt(preguntaAlJugador)
 
-
     // ciclo para vidas 
     for (let i = 0; i < vidas; i++) {
         // me deje elegir una opcion de juego  del 1 al 3 
@@ -27,7 +26,6 @@ function jugarCachipun() {
                 console.log("el numero ingresado no corresponde a nunguna de las opciones anteriores")
                 break
         }
-
         // que la maquina genere una respuesta aleatoria 
         const opcionArcade = Math.floor(Math.random() * 3) + 1;
         let eleccionArcade = ""
