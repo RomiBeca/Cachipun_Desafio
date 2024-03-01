@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(253, 252, 252, 0.479);
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 50px;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(26, 62, 93, 0.788);
+    overflow: hidden;
+}
+
+button {
+    padding-right: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(95, 19, 153, 0.747);
+    border: 0px rgb(255, 255, 255) solid;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(26, 62, 93, 0.788);
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
